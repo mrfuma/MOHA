@@ -1,0 +1,75 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Colore di sfondo */
+}
+
+header {
+  display: flex;
+  flex-direction: column; /* Impostiamo il layout in colonna */
+  align-items: center; /* Centrare gli elementi orizzontalmente */
+  background-color: #b19cd9; /* Colore lilla pastello per l'intestazione */
+  padding: 10px;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.logo img {
+  max-height: 40px; /* Altezza massima per l'immagine del logo */
+}
+
+.title {
+  text-align: center; /* Centrare il testo del titolo */
+}
+
+h1, p {
+  color: #495159; /* Colore del titolo e del sottotitolo (blu) */
+}
+
+main {
+  padding: 20px;
+}
+
+.gallery {
+  margin: 25px auto; /* Centrare la galleria */
+  display: flex; /* Utilizzare flexbox per disporre le immagini sulla stessa riga */
+  justify-content: center; /* Centrare le immagini orizzontalmente */
+}
+
+
+figure {
+  margin: 5px; /* Margine tra le figure contenenti immagini e testi */
+  text-align: center; /* Centrare il testo sotto l'immagine */
+}
+
+figcaption {
+  font-size: 20px; /* Dimensione del testo sotto l'immagine */
+  color: #333; /* Colore del testo sotto l'immagine */
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery img {
+  width: 250px; /* Larghezza delle immagini nella galleria */
+  height: 250px; /* Altezza delle immagini nella galleria */
+  object-fit: cover; /* Impostiamo l'immagine per riempire completamente il quadrato */
+  margin-right: 5px; /* Distanza tra le immagini nella galleria */
+}
+
+footer {
+  background-color: #b19cd9; /* Colore lilla pastello per il footer */
+  text-align: center; /* Centrare il testo del footer */
+  padding: 10px;
+  color: #495159; /* Colore del testo nel footer */
+   text-decoration: none; /* Rimuove la sottolineatura dei link */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Sottolineatura quando il link viene passato sopra con il mouse */
+}
+}
